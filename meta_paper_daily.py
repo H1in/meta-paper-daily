@@ -11,7 +11,7 @@ import time
 import shutil
 import traceback
 
-KEYS = ['source-free', "object detection", "domain adaptation", "domain generalization","vision language"]
+KEYS = ["source-free domain generalization", "domain generalization", "knowledge distilling", "vision language", "domain adaptation", 'source-free']
 data, papers = {}, {}
 DateNow = datetime.date.today()
 DateNow = str(DateNow)
